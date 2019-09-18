@@ -1,0 +1,5 @@
+{
+    "end-of-life": "Application has been renamed to org.gnome.Quadrapassel",
+    "end-of-life-rebase": "org.gnome.Quadrapassel",
+    "skip-appstream-check": true
+}
