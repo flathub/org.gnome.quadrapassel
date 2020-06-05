@@ -23,10 +23,9 @@
       "buildsystem" : "autotools",
       "sources" : [
         {
-          "type" : "git",
-          "url" : "https://gitlab.gnome.org/GNOME/gsound.git",
-          "tag": "1.0.2",
-          "commit:": "a86946b494aa32782b3f6334344d07b5c11d5219"
+          "type" : "archive",
+          "url" : "https://download.gnome.org/sources/gsound/1.0/gsound-1.0.2.tar.xz",
+          "sha256": "bba8ff30eea815037e53bee727bbd5f0b6a2e74d452a7711b819a7c444e78e53"
         }
       ]
     },
@@ -48,8 +47,8 @@
         {
           "type": "git",
           "url": "https://gitlab.gnome.org/aplazas/libmanette.git",
-          "tag": "0.2.3",
-          "commit": "8aacdcbcbf37d0e48a04ffc7dde11acb50ee628b"
+          "tag": "0.2.4",
+          "commit": "e92a35af43853eee0ce255754e622dbe10e71f2a"
         }
       ]
     },
@@ -59,8 +58,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://download.gnome.org/sources/quadrapassel/3.36/quadrapassel-3.36.00.tar.xz",
-          "sha256": "eff43749fe2472e4f8eba84dc9a609413f23b53b4af67d88ac5985736fe869f6"
+          "url": "https://download.gnome.org/sources/quadrapassel/3.36/quadrapassel-3.36.02.tar.xz",
+          "sha256": "8bc65a6bf83094deb8792b656c95adde484e12d3ce35cf09f42ce67ee3bf0031"
         }
       ]
     }
