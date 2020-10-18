@@ -1,7 +1,7 @@
 {
   "app-id": "org.gnome.Quadrapassel",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "3.36",
+  "runtime-version": "3.38",
   "sdk": "org.gnome.Sdk",
   "command": "quadrapassel",
   "finish-args": [
@@ -27,6 +27,23 @@
           "url" : "https://download.gnome.org/sources/gsound/1.0/gsound-1.0.2.tar.xz",
           "sha256": "bba8ff30eea815037e53bee727bbd5f0b6a2e74d452a7711b819a7c444e78e53"
         }
+      ],
+      "modules" : [
+        {
+          "name" : "libcanberra",
+          "config-opts" : [
+            "--disable-alsa",
+            "--disable-null",
+            "--disable-oss"
+          ],
+          "sources" : [
+            {
+              "type" : "archive",
+              "url" : "http://0pointer.de/lennart/projects/libcanberra/libcanberra-0.30.tar.xz",
+              "sha256" : "c2b671e67e0c288a69fc33dc1b6f1b534d07882c2aceed37004bf48c601afa72"
+            }
+          ]
+        }
       ]
     },
     {
@@ -35,8 +52,8 @@
         {
           "type": "git",
           "url": "https://gitlab.freedesktop.org/libevdev/libevdev.git",
-          "tag": "libevdev-1.8.0",
-          "commit": "779749b22c0dd62cadf9e147c97c5a7675a92478"
+          "tag": "libevdev-1.9.1",
+          "commit": "bcb79eed391d06fc4e75a39d19da91b41ff344ea"
         }
       ]
     },
@@ -47,8 +64,8 @@
         {
           "type": "git",
           "url": "https://gitlab.gnome.org/aplazas/libmanette.git",
-          "tag": "0.2.4",
-          "commit": "e92a35af43853eee0ce255754e622dbe10e71f2a"
+          "tag": "0.2.5",
+          "commit": "77d2c2c9fab2a8e08aead23f3ea059ad5d38f005"
         }
       ]
     },
@@ -58,8 +75,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://download.gnome.org/sources/quadrapassel/3.36/quadrapassel-3.36.02.tar.xz",
-          "sha256": "8bc65a6bf83094deb8792b656c95adde484e12d3ce35cf09f42ce67ee3bf0031"
+          "url": "https://download.gnome.org/sources/quadrapassel/3.38/quadrapassel-3.38.1.tar.xz",
+          "sha256": "19fe9fc17bbc9895a6ecadf5770a67fb806b3ea2d5962cb1997a60c396a2770c"
         }
       ]
     }
