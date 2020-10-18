@@ -64,7 +64,7 @@
         {
           "type": "git",
           "url": "https://gitlab.gnome.org/aplazas/libmanette.git",
-          "tag": "0.2.5"
+          "tag": "0.2.5",
           "commit": "77d2c2c9fab2a8e08aead23f3ea059ad5d38f005"
         }
       ]
